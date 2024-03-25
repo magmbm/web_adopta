@@ -1,0 +1,71 @@
+body{
+
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    margin-top: 10px; 
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Bebas Neue';
+    color: rgb(222, 139, 72);
+}
+
+a:link{
+    text-decoration: none;
+}
+
+
+.navb-opt{
+    font-weight: 600;
+    color: rgb(224, 163, 113);
+}
+
+.card-co{
+    color: rgb(222, 139, 72);
+    font-weight:700;
+    text-decoration: none;
+    font-family: 'Bebas Neue';
+}
+
+.card-H{
+    font-family: 'Bebas Neue';
+}
+
+.card-co a:link{
+    text-decoration: none;
+}
+
+.card-co a:hover{
+    color: #007bff;
+}
+
+
+.citem{
+    height: 600px;
+}
+
+.cimg{
+    height: 100%;
+    object-fit: fill;
+}
+
+.contenido{
+    margin: 40px 250px 40px 250px;
+    text-align: justify;
+}
+
+.card-t{
+    width: 100px;
+    padding: 0px;
+    object-fit: cover;
+}
+
+.card-t-img{
+    width: 100%;
+    padding: 0px;
+    object-fit: cover;
+}
