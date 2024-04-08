@@ -1,0 +1,16 @@
+Command for setting a GitHub repository as target for remote pushing, pulling, etc:
+
+git remote add origin 'https of repository '
+git branch -M 'name of branch'
+git 'command like push' -u origin 'name of branch'
+
+*It's not recommended to have secrets like passwords and tokens push into a GitHub repository
+Command for 'reseting' the commit history to a certain commit (the one of which the id represents)
+
+git reset --hard 'id_of_commit'
+
+Commands for enabling use of Token Credentials in git command line when asked for password and username:
+git config --global credential.helper store
+git config --global credential.useHttpPath true 
+
+It's kinda like VIM, whenever you need to move around you can use the motions and for exiting stages like git log, git show you can use 'q' or 'wq' for exiting the message for missing message in a commit
