@@ -1,0 +1,22 @@
+body{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+.mapa{
+    padding: 0px;
+    margin: solid orange 8px;
+}
+
+.serv-list{
+    list-style: none;
+}
+
+.clima-img{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 480px;
+}
